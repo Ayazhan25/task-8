@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container2{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  }
+  .container{
+    padding: 0 40px;
+  }
+  .logo{
+  text-decoration: none;
+  color: black;
+  font-family: 'Georgia';
+  font-weight: 400;
+  font-size: 32px;
+  }
+  .pod_logo{
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: black;
+  }
+  header{
+    padding: 40px 0;
+    background-color: white;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+  }
+  nav a{
+    margin-right: 48px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+  }
+  main{
+    background-color: #f6f6f6;
+  }
+  .animals{
+    max-width: 660px;
+  }
+  .animals img{
+    width: 270px;
+    height: 270px;
+  }
+  .pets{
+    flex-wrap: nowrap;
+    grid-gap:40px;
+    padding-bottom: 112px;
+    padding-left: 150px;
+    display: flex;
+  }
+  .pets2{
+    display:flex;
+    flex-wrap: nowrap;
+    grid-gap:40px;
+    padding-left: 150px;
+  }
+  button{
+    float: bottom;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-size: 17px;
+  padding: 15px 45px 10px;
+  width: max-content;
+  height: fit-content;
+  background: #F6F6F6;
+  border: 2px solid #F1CDB3;
+}
+footer{
+  background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+  padding-top: 40px;
+}
+footer .flex-wrapper >div{
+  width: 300px;
+}
+footer .flex-wrapper{
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+footer h2{
+  font-size: 35px;
+  color: #fff;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  padding-top: 16px;
+  margin-bottom: 33px;
+  text-decoration: none;
+}
+footer p{
+  min-height: 46px;
+  padding-left: 60px;
+  display: flex;
+  align-items: center;
+  color: #F1CDB3;
+  margin-bottom: 27px;
+}
+footer a{
+  color: #F1CDB3;
+}
+footer .email{
+  background: url(../img/mail.svg) no-repeat left center;
+}
+footer .tel{
+  background: url(../img/phone.svg) no-repeat left center;
+}
+footer .local{
+  background: url(../img/pin.svg) no-repeat left center;
+  padding-left: 42px;
+}
